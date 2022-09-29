@@ -1,0 +1,182 @@
+html {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background: radial-gradient(circle at top, #858585 , #292929);
+    height: auto;
+    background-size: cover;
+
+    
+}
+body {
+    margin: 0px;
+    min-width: 270px;
+    height: 100%;
+    max-width: 80rem;
+    margin: 0 auto;
+}
+
+hr {
+    margin: 5%;
+}
+
+h2 {
+    color: whitesmoke;
+}
+
+.quickLinkContainer {
+    position: absolute;
+    right: 2.5%;
+    color: white;
+
+
+}
+
+.heroImg {
+    background-image: url("img/heroimage-maxim-bober-unsplash.jpg");
+    background-position: center;
+    background-size: cover;
+    min-height: 275px;
+    margin: 0px;
+    color: aliceblue;
+    text-align: center;
+    text-shadow: 2px 2px 4px #000000;
+    width: 100%;
+
+}
+.heroText {
+    transform: translate(0%, 75%);
+    
+}
+#heroTitle {
+    margin: 0;
+    font-size: 3rem;
+    
+    
+}
+
+.socialMediaHref {
+    color:inherit;
+    text-decoration: none;
+}
+
+.aboutMe {
+    background-color: rgba(255,255,255,0.65);
+    margin: 2.5% 10%;
+    border: 4px ridge #060606c1;
+    border-radius: 63px 14px 63px 7px;
+    padding: 0.5em 2em;
+    min-width: min-content;
+}
+
+.portfolio {
+    background-color: black;
+    margin: 2.5% 7.5%;
+    padding-bottom: 5%;
+    min-width: min-content;
+}
+
+.portfolio h2 {
+    text-align: center;
+    margin: 5% 0%;
+    color: azure;
+}
+
+.portfolio h3 {
+    text-align: center;
+}
+
+
+.projectCardContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.projectCard {
+    background-color: white; 
+    width: 250px; 
+    margin: 2% 1%;
+}
+
+.projectImg {
+    width: 100%;
+    height: 10em;
+    background: linear-gradient(333deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+}
+
+.projectCard h5 {
+    display: inline;
+}
+
+.projectCard p {
+    display: inline;
+}
+
+.summary {
+    display: block;
+}
+
+.contactFormLabel {
+    display: block;
+    
+}
+
+textarea {
+    resize: none;
+    display: block;
+}
+
+#submitMessage {
+    width: 100%;
+    margin-top: 3%;
+}
+
+#bottomDiv {
+    display: block;
+    bottom:0;
+    width:100%;
+    margin: 0;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+}
+
+
+
+#contactForm {
+
+    align-content: center;
+    width: min-content;
+}
+
+
+
+.findMeAt ul,li { list-style-type: none;
+    list-style-position:inside;
+    margin:0;
+    padding: 5% 0%; }
+
+footer {
+    text-align: center;
+}
+
+footer p {
+    text-shadow: 3px 2px 3px rgba(255,255,255,.2);
+}
+
+
+.mobileOnly {
+    display: none;
+    text-align: center;
+}
+
+@media screen and (max-width: 938px) {
+
+    #bottomDiv {flex-direction: column-reverse; align-items: center;}
+    input {width: 99%; padding: 0;}
+    .mobileOnly {display: block;}
+}
+#getInTouch {
+    text-align: center;
+}
